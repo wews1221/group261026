@@ -6,3 +6,4 @@ uv run python main.py
 uv add pytest
 uv run -m pytest . 
 
+uv run -m pytest . -v -s
