@@ -1,5 +1,6 @@
 from os import name
 
+from models import shopping_cart
 from models.shopping_cart import ShoppingCart
 
 class TestShoppingCart:

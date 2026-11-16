@@ -7,6 +7,7 @@ class ShoppingCart:
             if item['name'] == name:
                 item['quantity'] += quantity
                 item['price'] = price
+                return
 
         self.item.append({
             'name' : name,
